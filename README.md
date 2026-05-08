@@ -16,14 +16,6 @@ The system provides travel price forecasting, airline comparisons, destination a
 
 ![Analytics](screenshots/analytics.png)
 
-## Prediction Engine
-
-![Prediction](screenshots/prediction.png)
-
-## Dashboard Filters
-
-![Sidebar](screenshots/sidebar.png)
-
 ---
 
 # Project Overview
@@ -110,11 +102,16 @@ The model predicts estimated flight pricing using historical travel data.
 travel-price-intelligence/
 │
 ├── screenshots/
+│   ├── dashboard.png
+│   └── analytics.png
+│
 ├── dataset.csv
+├── destinations.csv
 ├── main.py
 ├── app.py
 ├── requirements.txt
 ├── README.md
+└── .gitignore
 ```
 
 ---
