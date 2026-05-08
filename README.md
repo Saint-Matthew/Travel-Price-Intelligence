@@ -42,13 +42,13 @@ This project was designed to simulate a real-world travel intelligence platform 
 
 # Features
 
-##  Interactive Dashboard
+## Interactive Dashboard
 - Modern Streamlit dashboard
 - Responsive dark-mode analytics interface
 - KPI summary cards
 - Interactive tabs and filters
 
-##  Machine Learning Prediction
+## Machine Learning Prediction
 Predict estimated flight costs based on:
 - Destination country
 - Travel month
@@ -60,12 +60,12 @@ Predict estimated flight costs based on:
 - Analyze premium vs budget airlines
 - Explore airline travel trends
 
-##  Destination Analytics
+## Destination Analytics
 - Top flight destinations for Nigerian travelers
 - Most expensive travel routes
 - Country-level pricing analysis
 
-##  Monthly Travel Trends
+## Monthly Travel Trends
 - Peak travel periods
 - Seasonal pricing changes
 - Holiday demand analysis
@@ -93,7 +93,7 @@ The model predicts estimated flight pricing using historical travel data.
 
 ---
 
-#  Tech Stack
+# Tech Stack
 
 - Python
 - Streamlit
@@ -104,7 +104,7 @@ The model predicts estimated flight pricing using historical travel data.
 
 ---
 
-#  Project Structure
+# Project Structure
 
 ```text
 travel-price-intelligence/
@@ -119,7 +119,7 @@ travel-price-intelligence/
 
 ---
 
-#  Run Project Locally
+# Run Project Locally
 
 ## 1. Install Dependencies
 
@@ -135,7 +135,7 @@ streamlit run app.py
 
 ---
 
-#  Dashboard Features
+# Dashboard Features
 
 The dashboard includes:
 
@@ -149,7 +149,7 @@ The dashboard includes:
 
 ---
 
-#  Sample Analytics
+# Sample Analytics
 
 ## Destination Analytics
 Compare average flight prices across international destinations.
@@ -162,7 +162,7 @@ Track travel price fluctuations from January to December.
 
 ---
 
-#  Project Goal
+# Project Goal
 
 The objective of this project is to demonstrate:
 
@@ -175,7 +175,7 @@ The objective of this project is to demonstrate:
 
 ---
 
-#  Author
+# Author
 
 Matthew Obayemi
 
@@ -184,7 +184,7 @@ University of the People
 
 ---
 
-#  Future Improvements
+# Future Improvements
 
 Planned upgrades include:
 
@@ -197,6 +197,6 @@ Planned upgrades include:
 
 ---
 
-#  License
+# License
 
 This project demonstrates the application of machine learning, interactive analytics, and data visualization in solving real-world travel pricing challenges for Nigerian travelers.
