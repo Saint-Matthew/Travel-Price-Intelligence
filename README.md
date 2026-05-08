@@ -1,4 +1,4 @@
-# ✈️ Travel Price Intelligence System
+#  Travel Price Intelligence System
 
 An interactive machine learning dashboard that analyzes and predicts international flight prices for Nigerian travelers.
 
@@ -6,7 +6,27 @@ The system provides travel price forecasting, airline comparisons, destination a
 
 ---
 
-# 🌍 Project Overview
+#  Dashboard Preview
+
+##  Main Dashboard
+
+![Dashboard](screenshots/dashboard.png)
+
+##  Analytics Overview
+
+![Analytics](screenshots/analytics.png)
+
+##  Prediction Engine
+
+![Prediction](screenshots/prediction.png)
+
+##  Dashboard Filters
+
+![Sidebar](screenshots/sidebar.png)
+
+---
+
+#  Project Overview
 
 Travel prices for Nigerians often fluctuate due to:
 
@@ -20,37 +40,37 @@ This project was designed to simulate a real-world travel intelligence platform 
 
 ---
 
-# 🚀 Features
+#  Features
 
-## 📊 Interactive Dashboard
+##  Interactive Dashboard
 - Modern Streamlit dashboard
 - Responsive dark-mode analytics interface
 - KPI summary cards
 - Interactive tabs and filters
 
-## 🤖 Machine Learning Prediction
+##  Machine Learning Prediction
 Predict estimated flight costs based on:
 - Destination country
 - Travel month
 - Airline
 - Booking window
 
-## ✈️ Airline Analytics
+## Airline Analytics
 - Compare average airline pricing
 - Analyze premium vs budget airlines
 - Explore airline travel trends
 
-## 🌍 Destination Analytics
+##  Destination Analytics
 - Top flight destinations for Nigerian travelers
 - Most expensive travel routes
 - Country-level pricing analysis
 
-## 📅 Monthly Travel Trends
+##  Monthly Travel Trends
 - Peak travel periods
 - Seasonal pricing changes
 - Holiday demand analysis
 
-## 🔥 Popular Destinations Explorer
+## Popular Destinations Explorer
 Explore popular cities within major travel destinations including:
 - USA
 - Canada
@@ -60,7 +80,7 @@ Explore popular cities within major travel destinations including:
 
 ---
 
-# 🧠 Machine Learning Model
+#  Machine Learning Model
 
 The project uses:
 
@@ -73,7 +93,7 @@ The model predicts estimated flight pricing using historical travel data.
 
 ---
 
-# 🛠️ Tech Stack
+#  Tech Stack
 
 - Python
 - Streamlit
@@ -84,11 +104,12 @@ The model predicts estimated flight pricing using historical travel data.
 
 ---
 
-# 📂 Project Structure
+#  Project Structure
 
 ```text
 travel-price-intelligence/
 │
+├── screenshots/
 ├── dataset.csv
 ├── main.py
 ├── app.py
@@ -98,7 +119,7 @@ travel-price-intelligence/
 
 ---
 
-# ▶️ Run Project Locally
+#  Run Project Locally
 
 ## 1. Install Dependencies
 
@@ -114,7 +135,7 @@ streamlit run app.py
 
 ---
 
-# 📈 Dashboard Features
+#  Dashboard Features
 
 The dashboard includes:
 
@@ -128,7 +149,7 @@ The dashboard includes:
 
 ---
 
-# 🌐 Sample Analytics
+#  Sample Analytics
 
 ## Destination Analytics
 Compare average flight prices across international destinations.
@@ -141,7 +162,7 @@ Track travel price fluctuations from January to December.
 
 ---
 
-# 🎯 Project Goal
+#  Project Goal
 
 The objective of this project is to demonstrate:
 
@@ -154,7 +175,7 @@ The objective of this project is to demonstrate:
 
 ---
 
-# 👨‍💻 Author
+#  Author
 
 Matthew Obayemi
 
@@ -163,7 +184,7 @@ University of the People
 
 ---
 
-# 📌 Future Improvements
+#  Future Improvements
 
 Planned upgrades include:
 
@@ -176,6 +197,6 @@ Planned upgrades include:
 
 ---
 
-# 📜 License
+#  License
 
 This project demonstrates the application of machine learning, interactive analytics, and data visualization in solving real-world travel pricing challenges for Nigerian travelers.
