@@ -1,4 +1,4 @@
-#  Travel Price Intelligence System
+# Travel Price Intelligence System
 
 An interactive machine learning dashboard that analyzes and predicts international flight prices for Nigerian travelers.
 
@@ -6,27 +6,27 @@ The system provides travel price forecasting, airline comparisons, destination a
 
 ---
 
-#  Dashboard Preview
+# Dashboard Preview
 
-##  Main Dashboard
+## Main Dashboard
 
 ![Dashboard](screenshots/dashboard.png)
 
-##  Analytics Overview
+## Analytics Overview
 
 ![Analytics](screenshots/analytics.png)
 
-##  Prediction Engine
+## Prediction Engine
 
 ![Prediction](screenshots/prediction.png)
 
-##  Dashboard Filters
+## Dashboard Filters
 
 ![Sidebar](screenshots/sidebar.png)
 
 ---
 
-#  Project Overview
+# Project Overview
 
 Travel prices for Nigerians often fluctuate due to:
 
@@ -40,7 +40,7 @@ This project was designed to simulate a real-world travel intelligence platform 
 
 ---
 
-#  Features
+# Features
 
 ##  Interactive Dashboard
 - Modern Streamlit dashboard
@@ -80,7 +80,7 @@ Explore popular cities within major travel destinations including:
 
 ---
 
-#  Machine Learning Model
+# Machine Learning Model
 
 The project uses:
 
