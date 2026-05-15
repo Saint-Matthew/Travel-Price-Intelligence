@@ -1,8 +1,23 @@
 # Travel Price Intelligence System
 
-An interactive machine learning dashboard that analyzes and predicts international flight prices for Nigerian travelers.
+An AI powered travel analytics and forecasting platform designed to help Nigerian travelers analyze international flight pricing trends, compare airline costs, and predict estimated travel expenses using machine learning and predictive analytics.
 
-The system provides travel price forecasting, airline comparisons, destination analytics, booking insights, and seasonal trend analysis through an advanced Streamlit dashboard.
+The system provides:
+- Travel price forecasting
+- Airline comparison analytics
+- Destination intelligence
+- Seasonal trend analysis
+- Interactive business intelligence dashboards
+- Predictive travel cost estimation
+
+Built using Python, Streamlit, Pandas, Scikit-learn, and Plotly.
+
+---
+
+# Live Demo
+
+Streamlit App:  
+https://travel-price-intelligence-dashboard.streamlit.app/
 
 ---
 
@@ -25,7 +40,7 @@ https://travel-price-intelligence-dashboard.streamlit.app/
 
 # Project Overview
 
-Travel prices for Nigerians often fluctuate due to:
+International travel pricing for Nigerian travelers often fluctuates due to:
 
 - Seasonal demand
 - Airline pricing differences
@@ -33,42 +48,42 @@ Travel prices for Nigerians often fluctuate due to:
 - International destination popularity
 - Peak travel periods
 
-This project was designed to simulate a real-world travel intelligence platform capable of helping travelers make more informed travel decisions using data analytics and machine learning.
+This project was designed to simulate a real-world AI powered travel intelligence platform capable of helping travelers make more informed travel decisions using machine learning, predictive analytics, and interactive business intelligence dashboards.
 
 ---
 
-# Features
+# Core Features
 
 ## Interactive Dashboard
-- Modern Streamlit dashboard
-- Responsive dark-mode analytics interface
-- KPI summary cards
-- Interactive tabs and filters
+- Modern Streamlit analytics dashboard
+- Responsive dark-mode user interface
+- Interactive KPI cards
+- Dynamic filters and analytics views
 
-## Machine Learning Prediction
-Predict estimated flight costs based on:
+## Machine Learning Prediction Engine
+Predict estimated flight prices based on:
 - Destination country
 - Travel month
-- Airline
-- Booking window
+- Airline selection
+- Booking window timing
 
 ## Airline Analytics
-- Compare average airline pricing
+- Compare airline pricing trends
 - Analyze premium vs budget airlines
-- Explore airline travel trends
+- Explore pricing behavior across carriers
 
-## Destination Analytics
-- Top flight destinations for Nigerian travelers
+## Destination Intelligence
+- Most popular international destinations
+- Country-level travel cost analysis
 - Most expensive travel routes
-- Country-level pricing analysis
 
-## Monthly Travel Trends
+## Seasonal Trend Analysis
 - Peak travel periods
-- Seasonal pricing changes
-- Holiday demand analysis
+- Holiday demand patterns
+- Monthly pricing fluctuations
 
-## Popular Destinations Explorer
-Explore popular cities within major travel destinations including:
+## Popular Destination Explorer
+Explore major travel destinations including:
 - USA
 - Canada
 - United Kingdom
@@ -77,16 +92,99 @@ Explore popular cities within major travel destinations including:
 
 ---
 
-# Machine Learning Model
+# System Architecture
 
-The project uses:
+## Frontend Layer
 
+Responsible for dashboard rendering, visualization, and user interaction.
+
+### Technologies
+- Streamlit
+- Plotly
+
+### Responsibilities
+- Interactive analytics dashboard
+- Travel prediction interface
+- Data visualization
+- User filters and controls
+- KPI display components
+
+### Files
+- `app.py`
+
+---
+
+## Backend Layer
+
+Responsible for business logic, machine learning workflows, and analytics processing.
+
+### Technologies
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+
+### Responsibilities
+- Data preprocessing
+- Prediction workflows
+- Travel price forecasting
+- Dataset filtering
+- Business logic handling
+- Analytics computation
+
+### Files
+- `main.py`
+
+---
+
+## Machine Learning Layer
+
+Responsible for predictive analytics and forecasting operations.
+
+### Models and Techniques
 - Linear Regression
 - Label Encoding
 - Train/Test Split Validation
 - R² Accuracy Evaluation
 
-The model predicts estimated flight pricing using historical travel data.
+### Capabilities
+- Predict estimated flight prices
+- Analyze travel pricing patterns
+- Forecast seasonal price trends
+- Generate predictive travel insights
+
+---
+
+## Data Layer
+
+Responsible for managing structured travel intelligence datasets.
+
+### Datasets
+- Airline pricing data
+- Destination analytics
+- Seasonal travel records
+- Booking window insights
+
+### Files
+- `dataset.csv`
+- `destinations.csv`
+
+---
+
+## Infrastructure and Deployment
+
+Responsible for deployment, hosting, and version control operations.
+
+### Technologies
+- Git
+- GitHub
+- Streamlit Cloud
+
+### Responsibilities
+- Cloud application deployment
+- Version control management
+- Repository hosting
+- Public dashboard accessibility
 
 ---
 
@@ -95,9 +193,12 @@ The model predicts estimated flight pricing using historical travel data.
 - Python
 - Streamlit
 - Pandas
+- NumPy
 - Scikit-learn
 - Plotly
-- NumPy
+- Git
+- GitHub
+- Streamlit Cloud
 
 ---
 
@@ -129,7 +230,7 @@ travel-price-intelligence/
 pip install -r requirements.txt
 ```
 
-## 2. Start Dashboard
+## 2. Launch Dashboard
 
 ```bash
 streamlit run app.py
@@ -137,17 +238,17 @@ streamlit run app.py
 
 ---
 
-# Dashboard Features
+# Dashboard Capabilities
 
 The dashboard includes:
-
 - Country filters
 - Airline filters
 - Interactive analytics tabs
 - Price comparison charts
-- Monthly trend visualization
+- Seasonal trend visualization
 - Airline pricing insights
-- Real-time prediction engine
+- Predictive analytics engine
+- Real-time travel forecasting
 
 ---
 
@@ -160,20 +261,33 @@ Compare average flight prices across international destinations.
 Analyze airline pricing differences for Nigerian travelers.
 
 ## Monthly Trend Analysis
-Track travel price fluctuations from January to December.
+Track travel price fluctuations throughout the year.
 
 ---
 
 # Project Goal
 
-The objective of this project is to demonstrate:
-
+This project demonstrates:
 - Applied machine learning
-- Data analytics
-- Dashboard development
-- Data visualization
+- Predictive analytics
+- Business intelligence dashboard development
+- Data visualization engineering
 - User-focused UI/UX design
-- Real-world problem solving
+- Real-world travel analytics solutions
+- AI powered forecasting systems
+
+---
+
+# Future Improvements
+
+Planned upgrades include:
+- Real-time flight APIs
+- Live currency conversion
+- Hotel recommendation engine
+- Flight demand forecasting
+- AI-powered travel recommendations
+- Automated itinerary generation
+- Intelligent travel budgeting tools
 
 ---
 
@@ -186,19 +300,8 @@ University of the People
 
 ---
 
-# Future Improvements
-
-Planned upgrades include:
-
-- Real-time flight APIs
-- Live currency conversion
-- Hotel recommendation engine
-- Flight demand forecasting
-- Travel budget planner
-- AI-powered travel recommendations
-
----
-
 # License
 
-This project demonstrates the application of machine learning, interactive analytics, and data visualization in solving real-world travel pricing challenges for Nigerian travelers.
+This project demonstrates the practical application of machine learning, predictive analytics, and interactive data visualization in solving real-world travel pricing challenges for Nigerian travelers.
+
+
