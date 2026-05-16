@@ -16,13 +16,6 @@ Built using Python, Streamlit, Pandas, Scikit-learn, and Plotly.
 
 # Live Demo
 
-Streamlit App:  
-https://travel-price-intelligence-dashboard.streamlit.app/
-
----
-
-# Live Demo
-
 Streamlit App:
 https://travel-price-intelligence-dashboard.streamlit.app/
 
